@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="form.css">
+    </head> 
+    <nav>
+            <a href="portfolio.html">Home</a>
+            <a href="aboutus.html">About Me</a>
+            <a href="credentials.html">Credentials</a>
+            <a href="#contactus">Contact Us</a>
+        </nav><hr>
+<body>
+    <section id="contactus">
+    <form>
+        <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Surname, First Name MI"><br>
+        <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com"><br>
+        <label for="contact number">Contact Number</label>
+            <input type="num" id="contact number" name="contact number" placeholder="+63"><br>
+        <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea><br>  
+        <fieldset>
+  <legend>What we can do for you?</legend>
+
+  <label>
+    <input type="checkbox" name="purpose" value="inquiry"> Inquiry
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="purpose" value="appointment"> For Appointment
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="purpose" value="support"> Customer Support
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="purpose" value="feedback"> Feedback
+  </label><br>
+</fieldset>
+<fieldset>
+  <legend>What service you want to avail?</legend>
+
+  <label>
+    <input type="radio" name="service" value="ppt"> PPT Making
+  </label><br>
+
+  <label>
+    <input type="radio" name="service" value="photoshop"> Photoshop
+  </label><br>
+
+  <label>
+    <input type="radio" name="service" value="video"> Video Editing
+  </label><br>
+</fieldset>
+<div class="form-buttons">
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</div>
+
+    </form></section>
+</body>
+</html>

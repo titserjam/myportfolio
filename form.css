@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+nav {
+  background-color: #2c3e50;  
+  padding: 10px 20px;         
+  display: flex;
+  gap: 20px;                  
+  justify-content: center;   
+  position: fixed;           
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;             
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+body {
+  background: rgb(121, 181, 201);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+form {
+  background: lightblue;
+  padding: 25px;
+  border-radius: 10px;
+  width: 420px;
+  box-shadow: 0 6px 15px rgb(88, 127, 141);
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid rgb(58, 74, 80);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+fieldset {
+  border: 1px solid #2c1e1e;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 5px;
+  color: #225c96;
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-buttons {
+  justify-content: center; 
+  gap: 15px;             
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="reset"] {
+  background: #bdc3c7;
+  color: #fff;
+}
+
+button[type="reset"]:hover {
+  background: #95a5a6;
+}
+
+button[type="submit"] {
+  background: #3498db;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background: #2980b9;
+}
